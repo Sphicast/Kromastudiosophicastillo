@@ -1,0 +1,154 @@
+/* Estilos generales de Studio Kroma */
+
+/* Apariencia general */
+body {
+    font: 15px Lato, sans-serif;
+    line-height: 1.8;
+    color: #555555;
+    padding-top: 50px; /* espacio para la barra de navegación fija */
+}
+h2 {
+    font-size: 26px;
+    color: #303030;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+h4 {
+    font-size: 18px;
+    color: #303030;
+}
+section[id] {
+    scroll-margin-top: 50px;
+}
+
+/* Barra de navegación */
+.menu.navbar {
+    background-color: #2B3A67;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+}
+.menu .container-fluid {
+    padding: 0 15px;
+}
+.menu .navbar-brand {
+    padding: 5px 15px;
+}
+.menu .navbar-brand img {
+    height: 40px;
+}
+.menu .navbar-nav li a {
+    color: #ffffff;
+}
+.menu .navbar-nav li a:hover,
+.menu .navbar-nav li.active a {
+    color: #B5523B;
+    background-color: #ffffff;
+}
+.menu .navbar-toggle {
+    border-color: transparent;
+}
+.menu .navbar-toggle .icon-bar {
+    background-color: #ffffff;
+}
+.menu .navbar-toggle:hover,
+.menu .navbar-toggle:focus {
+    background-color: transparent;
+}
+
+/* Componente jumbotron (Home) */
+.jumbotron {
+    background-color: #2B3A67;
+    color: #ffffff;
+    padding: 60px 25px;
+    font-family: sans-serif;
+    text-align: center;
+    margin-bottom: 0;
+}
+.jumbotron h1 {
+    color: #ffffff;
+}
+
+/* Contenedores de sección */
+.container-fluid {
+    padding: 40px 50px;
+}
+.bg-gray {
+    background-color: #DCDCDC;
+}
+
+/* Paneles (Equipo de trabajo) */
+.panel {
+    border: 1px solid #B5523B;
+}
+.panel:hover {
+    box-shadow: 3px 7px 30px #000000;
+}
+.panel-heading {
+    padding: 0;
+}
+.panel-heading img {
+    width: 100%;
+}
+.panel-footer {
+    background-color: #B5523B;
+    color: #ffffff;
+}
+.panel-footer h3,
+.panel-footer h4 {
+    color: #ffffff;
+}
+
+/* Productos y guía de tallas */
+.item {
+    margin-bottom: 40px;
+}
+.item img {
+    margin: 0 auto 10px auto;
+}
+
+/* Pie de página */
+footer {
+    border-top: 1px solid #000000;
+    text-align: center;
+    padding: 30px 0;
+}
+footer .bi {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #B5523B;
+}
+footer a {
+    display: block;
+}
+
+/* Media queries: tamaño de las imágenes según el dispositivo */
+@media screen and (min-width:320px) {
+    .container-fluid img {
+        max-width: 100%;
+    }
+}
+@media screen and (min-width:768px) {
+    .container-fluid img {
+        max-width: 150px;
+    }
+}
+@media screen and (min-width:980px) {
+    .container-fluid img {
+        max-width: 225px;
+    }
+}
+@media screen and (min-width:1200px) {
+    .container-fluid img {
+        max-width: 300px;
+    }
+}
+
+/* Íconos de la información de contacto */
+.icono {
+    color: #B5523B;
+    font-size: 20px;
+}
